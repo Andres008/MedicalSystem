@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="SigbecomEJB">
+        
+    <wb-module deploy-name="MedicalEJB">
+                
         <wb-resource deploy-path="/" source-path="/ejbModule" tag="defaultRootSource"/>
-        <property name="java-output-path" value="/SigbecomEJB/build/classes"/>
+        <dependent-module archiveName="MedicalDS.jar" deploy-path="/" handle="module:/resource/MedicalDS/MedicalDS">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="MedicalWeb.jar" deploy-path="/" handle="module:/resource/MedicalWeb/MedicalWeb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                
+        <property name="java-output-path" value="/MedicalEJB/build/classes"/>
+            
     </wb-module>
+    
 </project-modules>

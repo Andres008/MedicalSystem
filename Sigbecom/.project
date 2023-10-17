@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Sigbecom</name>
+	<name>Medical</name>
 	<comment></comment>
 	<projects>
-		<project>SigbecomEJB</project>
-		<project>SigbecomWeb</project>
-		<project>SigbecomDS</project>
+		<project>MedicalDS</project>
+		<project>MedicalEJB</project>
+		<project>MedicalWeb</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

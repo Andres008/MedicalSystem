@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="Sigbecom">
+            
+    
+    <wb-module deploy-name="Medical">
+                        
+        
         <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
-        <dependent-module archiveName="SigbecomEJB.jar" deploy-path="/" handle="module:/resource/SigbecomEJB/SigbecomEJB">
+                
+        <dependent-module archiveName="MedicalDS.jar" deploy-path="/" handle="module:/resource/MedicalDS/MedicalDS">
+                        
             <dependent-object/>
+                        
             <dependency-type>uses</dependency-type>
+                    
         </dependent-module>
-        <dependent-module archiveName="SigbecomWeb.war" deploy-path="/" handle="module:/resource/SigbecomWeb/SigbecomWeb">
+                
+        <dependent-module archiveName="MedicalEJB.jar" deploy-path="/" handle="module:/resource/MedicalEJB/MedicalEJB">
+                        
             <dependent-object/>
+                        
             <dependency-type>uses</dependency-type>
+                    
         </dependent-module>
-        <dependent-module archiveName="SigbecomDS.jar" deploy-path="/" handle="module:/resource/SigbecomDS/SigbecomDS">
-            <dependent-object/>
+                
+        <dependent-module archiveName="MedicalWeb.jar" deploy-path="/" handle="module:/resource/MedicalWeb/MedicalWeb">
+                        
             <dependency-type>uses</dependency-type>
+                    
         </dependent-module>
+                    
+    
     </wb-module>
+        
+
 </project-modules>

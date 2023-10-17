@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="SigbecomDS">
+        
+    <wb-module deploy-name="MedicalDS">
+                
         <wb-resource deploy-path="/" source-path="/ejbModule" tag="defaultRootSource"/>
-        <property name="java-output-path" value="/SigbecomDS/build/classes"/>
+                
+        <property name="java-output-path" value="/MedicalDS/build/classes"/>
+                
         <property name="ClientProject" value="SigbecomDSsClient"/>
+                
         <property name="ClientJARURI" value="SigbecomDSsClient.jar"/>
+            
     </wb-module>
+    
 </project-modules>

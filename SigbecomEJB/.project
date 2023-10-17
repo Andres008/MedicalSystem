@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>SigbecomEJB</name>
+	<name>MedicalEJB</name>
 	<comment></comment>
 	<projects>
+		<project>MedicalDS</project>
+		<project>MedicalWeb</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
